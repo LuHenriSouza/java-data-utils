@@ -10,7 +10,6 @@ public class Stack extends SQStruct {
         System.out.println("Element added with sucess!");
     }
 
-    @Override
     public void pop(){
         content.remove(content.size());
         System.out.println("Deleted the most recent element!");
